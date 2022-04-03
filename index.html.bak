@@ -16,8 +16,7 @@
   <body>
   
 
-
-
+<<<<<<< HEAD
   
 
 
@@ -28,6 +27,10 @@
 
 
 
+=======
+    
+    
+>>>>>>> adc97dda8be940a0b41ff8b6c57592864f8da300
   <div class="loading_spin"></div>
 <header class="header">
   <div class="logo">
