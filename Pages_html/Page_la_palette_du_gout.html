@@ -1,19 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >  <!-- Le Doctype signifie Document Type Declaration  est une instruction qui apparaît obligatoirement au début de  HTML5 pour informer le validateur de la version du langage utilisé, HTML5.  -->
+<html lang="en"> <!-- L'élément <html> est l'élément racine d'une page HTML.-->
 
-<head>
-  <meta charset="UTF-8">
+<head> <!-----------------------Entête du document contient des information relative à la page .------------------------------------------------>
+   <!--La meta description permet d'ajouter une description d'une page affichée, 
+	ainsi que des mots-clés pour lesquels on souhaite optimiser une page. Cette balise permet d'informer les moteurs de recherche 
+	ainsi que les internautes du contenu de la page.-->
+  
+  <meta charset="UTF-8"> <!-- UTF-8 (abréviation de l'anglais Universal Character Set Transformation Format1 - 8 bits) est un codage de caractères informatiques conçu pour coder l'ensemble des caractères du « répertoire universel de caractères codés »-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Utilisation de la balise meta viewport pour contrôler la mise en page sur mobile-->
+  <meta name="description" content="Transformez une maquette en site web avec HTML & CSS" />
+  <meta name="author" content="Foaleng Lowe René" />
+  <meta name="copyright" content="Foaleng Lowe René" />
   <link rel="stylesheet" href="../normalize.css">
+  
+  <!-- L'élément HTML <script> est utilisé pour intégrer ou faire référence à un script exécutable. 
+	Cela fait généralement référence à du code JavaScript mais ce peut également être un autre type de script (par exemple WebGL).-->
+  <!--Font Awesome est une police d'écriture et un outil d'icônes qui se base sur CSS, Less et Sass.-->
+  
   <script src="https://kit.fontawesome.com/d8454b4167.js" crossorigin="anonymous"></script>
+  <!--preconnect signigfie: Chargez les fichiers de polices Google plus rapidement en ajoutant l'indice de préconnexion
+    L'indice de préconnexion est pris en charge par les navigateurs Chrome, Opera, Firefox et Android.-->
+  <!--Google Fonts (appelé Google Webfonts avant juin 2013) est un service d’hébergement gratuit de polices d’écritures pour le Web, démarré en 2010-->
+  
+  <!--<link> : l'élément de lien vers des ressources externes-->
+  <!--<link> : premier élément de lien entre le document courant et une ressources externes favicon-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="../sass/main.css">
-  <title>La palette du gout</title>
-</head>
+  
+  <title>La palette du gout</title> <!-- Titre de la page--> 
+</head>  <!-- Fin entête de la page--> 
+<body>
 <header>
   <div class="header">
     <div class="arrow">
@@ -38,6 +58,7 @@
       </div>
     </div>
     <div class="bloc_menu">
+	  <!-- ENTRÉES-->
     <div class="menu_entree">
       <h4>ENTRÉES</h4>
       <div class="menu_card_entree">
@@ -74,6 +95,7 @@
     </div>
     </div>
     <div class="menu_plats">
+	  <!-- PLATS-->
       <h4>PLATS</h4>
       <div class="menu_card_plats">
       <div class="menu_card">
@@ -109,6 +131,7 @@
     </div>
     </div>
     <div class="menu_desserts">
+	<!-- DESSERTS-->
       <h4>DESSERTS</h4>
       <div class="menu_card_desserts">
       <div class="menu_card">
@@ -147,6 +170,8 @@
     <button class="btn btn_alt btn_main">Commander</button>
   </div>
 </main>
+
+<!-- section Footer ou pied de page-->
 <footer>
   <div class="logo logo_footer">
     <img src="../Maquettes/images/logo/ohmyfood.png" alt="logo_footer">
@@ -158,3 +183,5 @@
     <li><a class="footer_link" href="mailto:adresse@serveur.com">Contact</a></li>
   </ul>
 </footer>
+ </body>
+</html>
